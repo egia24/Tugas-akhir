@@ -7,19 +7,19 @@ import seaborn as sns
 @st.cache_resource
 #mendefinisikan dan mengambil data
 def load_shunyi():
-    Shunyi = pd.read_csv("../Dashboard/data/PRSA_Data_Shunyi_20130301-20170228.csv")
+    Shunyi = pd.read_csv("../data/PRSA_Data_Shunyi_20130301-20170228.csv")
     return Shunyi
 Shunyi = load_shunyi()
 
 #mendefinisikan dan mengambil data
 def load_Huairou():
-    Huairou = pd.read_csv("../Dashboard/data/PRSA_Data_Huairou_20130301-20170228.csv")
+    Huairou = pd.read_csv("../data/PRSA_Data_Huairou_20130301-20170228.csv")
     return Huairou
 Huairou = load_Huairou()
 
 #mendefinisikan dan mengambil data
 def load_Wanliu():
-    Wanliu = pd.read_csv("../Dashboard/data/        PRSA_Data_Wanliu_20130301-20170228.csv")
+    Wanliu = pd.read_csv("../data/PRSA_Data_Wanliu_20130301-20170228.csv")
     return Wanliu
 Wanliu = load_Wanliu()
 
